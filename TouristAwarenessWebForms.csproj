@@ -67,9 +67,91 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AccommodationPhotos.aspx" />
+    <Content Include="Accommodations.aspx" />
     <Content Include="BookGuide.aspx" />
     <Content Include="Dashboard.aspx" />
+    <Content Include="Images\Anuradapura\atamsthana.jpg" />
+    <Content Include="Images\Anuradapura\avukana_buddha.jpg" />
+    <Content Include="Images\Anuradapura\eco_villa.jpg" />
+    <Content Include="Images\Anuradapura\minneriya.jpg" />
+    <Content Include="Images\Anuradapura\ran_masu_uyana.jpg" />
+    <Content Include="Images\Anuradapura\twin_ponds.jpg" />
+    <Content Include="Images\Badulla\adisham.jpg" />
+    <Content Include="Images\Badulla\bogoda_bridge.jpg" />
+    <Content Include="Images\Badulla\crown_regency.jpg" />
+    <Content Include="Images\Badulla\dunhinda.jpg" />
+    <Content Include="Images\Badulla\ella.jpg" />
+    <Content Include="Images\Badulla\little_adms_peak.jpg" />
+    <Content Include="Images\Badulla\mount_view.jpg" />
+    <Content Include="Images\Badulla\narangala.jpg" />
+    <Content Include="Images\Badulla\nine_arch.jpg" />
+    <Content Include="Images\book_a_guide.jpg" />
+    <Content Include="Images\Colombo\cinnamon_grand.jpg" />
+    <Content Include="Images\Colombo\colombo_museum.jpg" />
+    <Content Include="Images\Colombo\galleface.jpg" />
+    <Content Include="Images\Colombo\lotus_tower.jpg" />
+    <Content Include="Images\Colombo\planetarium.jpg" />
+    <Content Include="Images\Colombo\portcity.jpg" />
+    <Content Include="Images\Colombo\port_museum.jpg" />
+    <Content Include="Images\Colombo\shangrila.jpg" />
+    <Content Include="Images\dashboard.jpg" />
+    <Content Include="Images\East_Coast\amaya_beach.jpg" />
+    <Content Include="Images\East_Coast\arugambay.jpg" />
+    <Content Include="Images\East_Coast\galoya.jpg" />
+    <Content Include="Images\East_Coast\koneswaram.jpg" />
+    <Content Include="Images\East_Coast\marble_beach.jpg" />
+    <Content Include="Images\East_Coast\nilaveli.jpg" />
+    <Content Include="Images\East_Coast\nilaveli_beach_hotel.jpg" />
+    <Content Include="Images\East_Coast\pasikudah.jpg" />
+    <Content Include="Images\East_Coast\pigeon_island.jpg" />
+    <Content Include="Images\Kandy\bahirawakanda.jpg" />
+    <Content Include="Images\Kandy\earls.jpg" />
+    <Content Include="Images\Kandy\grand_serandib.jpg" />
+    <Content Include="Images\Kandy\kandy_lake_park.jpg" />
+    <Content Include="Images\Kandy\kandy_museum.jpg" />
+    <Content Include="Images\Kandy\kandy_war_cemetery.jpg" />
+    <Content Include="Images\Kandy\peradeniya_garden.jpg" />
+    <Content Include="Images\Kandy\temple_of_tooth.jpg" />
+    <Content Include="Images\Kandy\udawatta.jpg" />
+    <Content Include="Images\Kandy\view_point.jpg" />
+    <Content Include="Images\Matale\aluviharaya.jpg" />
+    <Content Include="Images\Matale\rangiri.jpg" />
+    <Content Include="Images\Matale\riverston_villa.jpg" />
+    <Content Include="Images\Matale\sigiriya.jpg" />
+    <Content Include="Images\North_Coast\jaffna_fort.jpg" />
+    <Content Include="Images\North_Coast\jaffna_library.jpg" />
+    <Content Include="Images\North_Coast\mannar.jpg" />
+    <Content Include="Images\North_Coast\nagadipa.jpg" />
+    <Content Include="Images\North_Coast\nallur.jpg" />
+    <Content Include="Images\North_Coast\neduntheevu.jpg" />
+    <Content Include="Images\North_Coast\north_gate.jpg" />
+    <Content Include="Images\Nuwaraeliya\devon_falls.jpg" />
+    <Content Include="Images\Nuwaraeliya\golden_ridge.jpg" />
+    <Content Include="Images\Nuwaraeliya\gregory_lake.jpg" />
+    <Content Include="Images\Nuwaraeliya\hakgala.jpg" />
+    <Content Include="Images\Nuwaraeliya\heaven_sevean.jpg" />
+    <Content Include="Images\Nuwaraeliya\horton_plains.jpg" />
+    <Content Include="Images\locations.jpg" />
     <Content Include="Images\Login.jpg" />
+    <Content Include="Images\Nuwaraeliya\piduruthalagala.jpg" />
+    <Content Include="Images\profile.jpg" />
+    <Content Include="Images\Nuwaraeliya\sita_amman_kovil.jpg" />
+    <Content Include="Images\Nuwaraeliya\st_clairs_falls.jpg" />
+    <Content Include="Images\Nuwaraeliya\worlds_end.jpg" />
+    <Content Include="Images\South_Coast\bentota.jpg" />
+    <Content Include="Images\South_Coast\calamander.jpg" />
+    <Content Include="Images\South_Coast\diyakawa_center.jpg" />
+    <Content Include="Images\South_Coast\galle_fort.jpg" />
+    <Content Include="Images\South_Coast\hikkaduwa.jpg" />
+    <Content Include="Images\South_Coast\kumana.jpg" />
+    <Content Include="Images\South_Coast\mirissa.jpg" />
+    <Content Include="Images\South_Coast\sea_turtle_hatchery.jpg" />
+    <Content Include="Images\South_Coast\tangalle.jpg" />
+    <Content Include="Images\South_Coast\tapbrobane.jpg" />
+    <Content Include="Images\South_Coast\thaproban_pavilion.jpg" />
+    <Content Include="Images\South_Coast\yala.jpg" />
+    <Content Include="LocationPhotos.aspx" />
     <Content Include="Locations.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Profile.aspx" />
@@ -77,6 +159,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccommodationPhotos.aspx.cs">
+      <DependentUpon>AccommodationPhotos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccommodationPhotos.aspx.designer.cs">
+      <DependentUpon>AccommodationPhotos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accommodations.aspx.cs">
+      <DependentUpon>Accommodations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accommodations.aspx.designer.cs">
+      <DependentUpon>Accommodations.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BookGuide.aspx.cs">
       <DependentUpon>BookGuide.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +186,13 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LocationPhotos.aspx.cs">
+      <DependentUpon>LocationPhotos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LocationPhotos.aspx.designer.cs">
+      <DependentUpon>LocationPhotos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Locations.aspx.cs">
       <DependentUpon>Locations.aspx</DependentUpon>
@@ -130,6 +233,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

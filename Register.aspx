@@ -9,6 +9,7 @@
     <!-- Bootstrap Datepicker CSS link (optional for custom date picker) -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet" />
 
+
     <script type="text/javascript">
         // JavaScript function to validate that all fields are filled and passwords match
         function validateForm() {
@@ -67,7 +68,7 @@
                             </div>
                             <div class="form-group">
                                 <asp:Label ID="lblDOB" runat="server" Text="Date of Birth" CssClass="form-label"></asp:Label>
-                                <asp:TextBox ID="txtDOB" runat="server" TextMode="Date" CssClass="form-control"></asp:TextBox>
+                                <asp:TextBox ID="txtDOB" runat="server" CssClass="form-control"></asp:TextBox>
                             </div>
 
                             <!-- Gender Radio Buttons -->

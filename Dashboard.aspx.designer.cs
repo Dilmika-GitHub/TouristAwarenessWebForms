@@ -24,6 +24,15 @@ namespace TouristAwarenessWebForms
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// btnProfile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnProfile;
+
+        /// <summary>
         /// btnLocations control.
         /// </summary>
         /// <remarks>
@@ -33,6 +42,15 @@ namespace TouristAwarenessWebForms
         protected global::System.Web.UI.WebControls.Button btnLocations;
 
         /// <summary>
+        /// btnAccommodations control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAccommodations;
+
+        /// <summary>
         /// btnBookGuide control.
         /// </summary>
         /// <remarks>
@@ -40,14 +58,5 @@ namespace TouristAwarenessWebForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnBookGuide;
-
-        /// <summary>
-        /// btnProfile control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnProfile;
     }
 }
